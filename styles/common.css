@@ -1,0 +1,40 @@
+/* 색 - 공통으로 */
+main .container .contents li .new_info .info_details .color {
+    display: flex; flex-flow: row nowrap; justify-content: flex-start; 
+}
+main .container .contents li .new_info .info_details .color span {
+    width: 10px; height: 10px; border-radius: 50%;
+    display: block; margin-left: 3px;
+}
+main .container .contents li .new_info .info_details .color span:first-child {margin-left: 0;}
+/* 색모음 - S */
+main .container .contents li .new_info .info_details .color .beige {
+    background-color: rgb(255, 255, 228);
+}
+main .container .contents li .new_info .info_details .color .blue {
+    background-color: rgb(151, 183, 231);
+}
+main .container .contents li .new_info .info_details .color .grey {
+    background-color: rgb(165, 165, 165);
+}
+main .container .contents li .new_info .info_details .color .black {
+    background-color: rgb(0, 0, 0);
+}
+main .container .contents li .new_info .info_details .color .mellange {
+    background-color: rgb(206, 206, 206);
+}
+main .container .contents li .new_info .info_details .color .pink {
+    background-color: rgb(255, 134, 194);
+}
+main .container .contents li .new_info .info_details .color .white {
+    background-color: rgb(255, 255, 255);
+}
+main .container .contents li .new_info .info_details .color .violet {
+    background-color: rgb(200, 151, 214);
+}
+main .container .contents li .new_info .info_details .color .red {
+    background-color: rgb(255, 0, 0);
+}
+main .container .contents li .new_info .info_details .color .brown {
+    background-color: rgb(112, 29, 29)
+}
