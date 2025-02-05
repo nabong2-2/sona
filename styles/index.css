@@ -1,0 +1,56 @@
+body {position: relative;}
+body > * {height: 100vh;}
+header {position: absolute; top: 0; left: 0; z-index: 999; height: 133px; width: 100%; padding-top: 27px; display: flex; flex-flow: column nowrap;}
+header > * {padding: 0 150px;}
+header h1 {}
+header h1 a {}
+/* 검색어 */
+/* 여기서부터 수정 */
+header .t_right {display: flex; flex-flow: row nowrap; justify-content: space-between; align-items: center;}
+header .top_h .t_right form {margin-right: 14px; position: relative;}
+header .top_h .t_right form #search {
+    width: 303px; padding: 12px 15px; border-radius: 20px;
+}
+header .top_h .t_right form #search::placeholder {
+    color: #9C9C9C;
+}
+header .top_h .t_right form button {
+    background: url(../images/search1.png);
+    position: absolute; top: 13px; right: 18px; width: 18px; height: 18px;
+}
+header .top_h .t_right .login_wrap {}
+header .top_h .t_right .login_wrap a {margin-right: 14px;}
+header .top_h .t_right .login_wrap a:last-child {margin-right: 0;}
+header .bottom_h {
+    display: flex; flex-flow: row nowrap; justify-content: space-between; align-items: center;
+    margin-top: 20px; align-items: flex-start;}
+header .bottom_h .b_left {display: flex; flex-flow: row nowrap; justify-content: space-between;}
+header .bottom_h .b_left li {margin-right: 30px;}
+header .bottom_h .b_left li:last-child {margin-right: 0;}
+header .bottom_h .b_left > li > a {
+    line-height: 2.0rem;
+}
+header .bottom_h .b_left li > a span {color: #FF7D9E;}
+/* hover 공통 */
+header .bottom_h .b_left li .depth_menu {
+    display: none;
+    background-color: yellow;
+    padding: 7px 0 7px 15px;
+}
+header .bottom_h .b_left li .depth_menu li {
+    margin-bottom: 13px;
+}
+header .bottom_h .b_left li .depth_menu li:last-child {margin-bottom: 0;}
+header .bottom_h .b_left li .depth_menu li a {
+    font-size: 0.88rem; letter-spacing: -0.02rem;
+}
+/* hover 개별 */
+header .bottom_h .b_left li .depth3 {}
+header .bottom_h .b_left li .depth5 {}
+header .bottom_h .b_left li .depth6 {}
+header .bottom_h .b_right {display: flex; flex-flow: row nowrap;justify-content: space-between; align-items: center;}
+header .bottom_h .b_right li {padding-right: 14px;}
+header .bottom_h .b_right li:last-child {padding-right: 0;}
+header .bottom_h .b_right li a {}
+header .bottom_h .b_right li a img {}
+/* swiper */
